@@ -1,0 +1,108 @@
+.header-content {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.header-content img {
+   margin-right: 15px;
+}
+
+@keyframes fadeIn {
+   from {
+      opacity: 0;
+      transform: translateY(-20px);
+   }
+
+   to {
+      opacity: 1;
+      transform: translateY(0);
+   }
+}
+
+.title h1 {
+   color:white;
+   text-decoration: underline;
+   animation: fadeIn 4s ease-in-out;
+}
+
+body {
+   background-image: url('https://preview.redd.it/3zud92017o961.png?auto=webp&s=4bb52104efbabc1d20054716b6b55b867698eed4');
+   background-size: cover;
+   /* Ajusta a imagem para cobrir todo o fundo */
+
+   background-position: center;
+   /* Centraliza a imagem no fundo */
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   color: black;
+   /*usando em todos */
+}
+
+#imgindex {
+   margin: 20px;
+   padding-top: 20px;
+   /* sendo usado no index */
+}
+
+#links a {
+   color: rgb(0, 0, 0);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: larger;
+   /* sendo usado no index */
+}
+
+#albuns a {
+   text-align: center;
+   color: rgb(255, 255, 255);
+   text-decoration: dashed;
+   /* sendo usado na discografia */
+}
+
+
+
+h4 a {
+   font-size: larger;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+   color: rgb(255, 255, 255);
+   text-decoration: underline;
+   text-decoration-color: rgb(255, 166, 0);
+}
+
+#linksalbuns a {
+   text-align: center;
+}
+
+.sidebar {
+   width: 200px;
+   height: 72vh;
+   padding: 20px;
+
+}
+
+.sidebar #links {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.sidebar #links a {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: larger;
+   text-decoration: none;
+   color: aliceblue;
+}
+
+.sidebar #links a:hover {
+   text-decoration: underline;
+   color: rgb(172, 182, 191);
+}
+
+footer {
+   background-color: white;
+   color: black;
+   text-align: center;
+padding: -5px;
+}

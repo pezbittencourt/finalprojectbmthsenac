@@ -1,0 +1,63 @@
+.title { 
+    color:white;
+    text-decoration: underline; 
+}
+
+
+
+body {
+    background-image: url('https://preview.redd.it/3zud92017o961.png?auto=webp&s=4bb52104efbabc1d20054716b6b55b867698eed4');
+    background-size: cover;
+    /* Ajusta a imagem para cobrir todo o fundo */
+ 
+    background-position: center;
+    /* Centraliza a imagem no fundo */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: black;
+    /*usando em todos */
+ }
+
+ h4 a {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 166, 0);
+ }
+
+ .sidebar {
+    width: 200px;
+    height: 72vh;
+    padding: 20px;
+ 
+ }
+ 
+ .sidebar #links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+ }
+ 
+ .sidebar #links a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    text-decoration: none;
+    color: aliceblue;
+ }
+ 
+ .sidebar #links a:hover {
+    text-decoration: underline;
+    color: rgb(172, 182, 191);
+ }
+ 
+ footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+ padding: -5px;
+ }
+ 
+ 
