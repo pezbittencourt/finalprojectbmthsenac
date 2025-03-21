@@ -23,7 +23,7 @@
 .title h1 {
    color:white;
    text-decoration: underline;
-   animation: fadeIn 4s ease-in-out;
+   animation: fadeIn 4s ease-in-out infinite;
 }
 
 body {
