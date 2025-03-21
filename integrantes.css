@@ -14,12 +14,14 @@ p {
 
 h1 { 
     text-align: center;
+    color:white;
     text-decoration: underline;
     text-decoration-color: rgb(255, 166, 0);
 
 }
 
     h2 {
+      color:white;
         font-family: 'Times New Roman', Times, serif;
         font-size: x-large;
         text-decoration: underline;
